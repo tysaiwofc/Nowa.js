@@ -1,10 +1,9 @@
 const db = require("quick.db");
-const inlinereply = require('discord-reply');
+// const inlinereply = require('discord-reply'); [ message.inlinereply('bla bla bla') ]
 
 module.exports = {
-    name: "set prefix",
-    author: "ferinha",
-    servidor: "discord.gg/ferinha",
+    name: "prefixo",
+    author: "eu",
 
     run: async(client, message, args) => {
 
@@ -16,7 +15,7 @@ module.exports = {
 
         let novo_prefixo = args.join("");
 
-        let ferinha = await db.set(`ferinha_prefixo_${message.guild.id}`, novo_prefixo);
+        let ferinha = await db.set(`prefixo_${message.guild.id}`, novo_prefixo);
 
         message.lineReply(`<:verificado:879264162906255390> **| ${ferinha_author} , O meu prefixo para esse servidor foi definido para \`${novo_prefixo}\` com sucesso!**`)
     }
