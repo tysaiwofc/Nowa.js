@@ -3,16 +3,16 @@ client.once('ready', function () {
     `https://cdn.nekos.life/avatar/avatar_49.png`, //LINK 1
     `https://cdn.nekos.life/avatar/avatar_67.png`, //LINK 2
     `https://cdn.nekos.life/avatar/avatar_52.png`, //LINK 3
-    `https://cdn.nekos.life/avatar/avatar_06.png`,
-    `https://cdn.nekos.life/avatar/avatar_05.png`,
-    `https://cdn.nekos.life/avatar/avatar_42.png`,
-    `https://cdn.nekos.life/avatar/avatar_65.png`,
-    `https://cdn.nekos.life/avatar/avatar_67.png`,
-    `https://cdn.nekos.life/avatar/avatar_66.png`,
-    'https://cdn.nekos.life/avatar/avatar_59.png',
-    'https://cdn.nekos.life/avatar/avatar_49.png',
-    'https://cdn.nekos.life/avatar/avatar_43.png',
-    'https://cdn.nekos.life/avatar/avatar_23.png',
+    `https://cdn.nekos.life/avatar/avatar_06.png`, /* apenas v13 */
+    `https://cdn.nekos.life/avatar/avatar_05.png`, /* apenas v13 */
+    `https://cdn.nekos.life/avatar/avatar_42.png`, /* apenas v13 */
+    `https://cdn.nekos.life/avatar/avatar_65.png`, /* apenas v13 */
+    `https://cdn.nekos.life/avatar/avatar_67.png`, /* apenas v13 */
+    `https://cdn.nekos.life/avatar/avatar_66.png`, /* apenas v13 */
+    'https://cdn.nekos.life/avatar/avatar_59.png', /* apenas v13 */
+    'https://cdn.nekos.life/avatar/avatar_49.png', /* apenas v13 */
+    'https://cdn.nekos.life/avatar/avatar_43.png', /* apenas v13 */
+    'https://cdn.nekos.life/avatar/avatar_23.png', /* apenas v13 */
 
 
 ],
@@ -23,6 +23,6 @@ setInterval(
     7200000 * 60
 );
 
-})
+}) /* apenas v13 */
 
 /*------------------------------------------------------------------------*/
